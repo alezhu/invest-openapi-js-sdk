@@ -33,6 +33,7 @@
     "rollup-plugin-typescript2": "^0.25.3",
     "tslib": "^1.10.0",
     "typedoc": "^0.16.9",
+    "typedoc-plugin-fixcomputednames": "^1.0.1",
     "typedoc-plugin-markdown": "^2.2.16",
     "typedoc-plugin-no-inherit": "^1.1.10",
     "typescript": "^3.6.3"
