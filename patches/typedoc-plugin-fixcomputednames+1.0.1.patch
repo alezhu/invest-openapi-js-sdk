@@ -1,0 +1,13 @@
+diff --git a/node_modules/typedoc-plugin-fixcomputednames/dist/plugin.js b/node_modules/typedoc-plugin-fixcomputednames/dist/plugin.js
+index d726d9d..294cecb 100644
+--- a/node_modules/typedoc-plugin-fixcomputednames/dist/plugin.js
++++ b/node_modules/typedoc-plugin-fixcomputednames/dist/plugin.js
+@@ -16,7 +16,7 @@ const tslib_1 = require("tslib");
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ */
+-const ts = tslib_1.__importStar(require("typedoc/node_modules/typescript/lib/typescript"));
++const ts = tslib_1.__importStar(require("typescript/lib/typescript"));
+ const components_1 = require("typedoc/dist/lib/converter/components");
+ const converter_1 = require("typedoc/dist/lib/converter");
+ const models_1 = require("typedoc/dist/lib/models");
