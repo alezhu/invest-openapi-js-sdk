@@ -7,11 +7,10 @@
     "example": "example"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "patch-package && npm run build",
     "build": "npx rollup --config ./rollup.config.js",
     "watch": "npx rollup --config ./rollup.config.js -w -m",
-    "docs": "rimraf ./doc && npx typedoc",
-    "postinstall": "patch-package"
+    "docs": "rimraf ./doc && npx typedoc"
   },
   "repository": {
     "type": "git",
