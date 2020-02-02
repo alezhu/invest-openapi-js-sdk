@@ -8,8 +8,14 @@
 
 * [OpenAPI](classes/openapi.md)
 
+### Interfaces
+
+* [UserAccount](interfaces/useraccount.md)
+* [UserAccounts](interfaces/useraccounts.md)
+
 ### Type aliases
 
+* [BrokerAccountType](globals.md#brokeraccounttype)
 * [Candle](globals.md#candle)
 * [CandleResolution](globals.md#candleresolution)
 * [CandleStreaming](globals.md#candlestreaming)
@@ -72,11 +78,19 @@
 
 ## Type aliases
 
+###  BrokerAccountType
+
+Ƭ **BrokerAccountType**: *"Tinkoff" | "TinkoffIis"*
+
+*Defined in [src/domain.d.ts:238](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L238)*
+
+___
+
 ###  Candle
 
 Ƭ **Candle**: *object*
 
-Defined in domain.d.ts:93
+*Defined in [src/domain.d.ts:93](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L93)*
 
 #### Type declaration:
 
@@ -102,7 +116,7 @@ ___
 
 Ƭ **CandleResolution**: *object*
 
-Defined in domain.d.ts:104
+*Defined in [src/domain.d.ts:104](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L104)*
 
 #### Type declaration:
 
@@ -112,7 +126,7 @@ ___
 
 Ƭ **CandleStreaming**: *object*
 
-Defined in OpenAPI.ts:42
+*Defined in [src/OpenAPI.ts:46](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L46)*
 
 #### Type declaration:
 
@@ -138,7 +152,7 @@ ___
 
 Ƭ **Candles**: *object*
 
-Defined in domain.d.ts:87
+*Defined in [src/domain.d.ts:87](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L87)*
 
 #### Type declaration:
 
@@ -154,7 +168,7 @@ ___
 
 Ƭ **CandlesResponse**: *object*
 
-Defined in domain.d.ts:81
+*Defined in [src/domain.d.ts:81](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L81)*
 
 #### Type declaration:
 
@@ -170,7 +184,7 @@ ___
 
 Ƭ **Currencies**: *object*
 
-Defined in domain.d.ts:29
+*Defined in [src/domain.d.ts:29](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L29)*
 
 #### Type declaration:
 
@@ -182,7 +196,7 @@ ___
 
 Ƭ **Currency**: *object*
 
-Defined in domain.d.ts:229
+*Defined in [src/domain.d.ts:229](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L229)*
 
 #### Type declaration:
 
@@ -192,7 +206,7 @@ ___
 
 Ƭ **CurrencyPosition**: *object*
 
-Defined in domain.d.ts:33
+*Defined in [src/domain.d.ts:33](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L33)*
 
 #### Type declaration:
 
@@ -208,7 +222,7 @@ ___
 
 Ƭ **Depth**: *1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10*
 
-Defined in OpenAPI.ts:32
+*Defined in [src/OpenAPI.ts:36](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L36)*
 
 ___
 
@@ -216,7 +230,7 @@ ___
 
 Ƭ **Dict**: *object*
 
-Defined in OpenAPI.ts:35
+*Defined in [src/OpenAPI.ts:39](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L39)*
 
 #### Type declaration:
 
@@ -228,7 +242,7 @@ ___
 
 Ƭ **Empty**: *object*
 
-Defined in domain.d.ts:1
+*Defined in [src/domain.d.ts:1](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L1)*
 
 #### Type declaration:
 
@@ -244,7 +258,7 @@ ___
 
 Ƭ **Error**: *object*
 
-Defined in domain.d.ts:7
+*Defined in [src/domain.d.ts:7](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L7)*
 
 #### Type declaration:
 
@@ -260,7 +274,7 @@ ___
 
 Ƭ **ErrorPayload**: *object*
 
-Defined in domain.d.ts:233
+*Defined in [src/domain.d.ts:233](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L233)*
 
 #### Type declaration:
 
@@ -274,7 +288,7 @@ ___
 
 Ƭ **HttpMethod**: *"get" | "post"*
 
-Defined in OpenAPI.ts:33
+*Defined in [src/OpenAPI.ts:37](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L37)*
 
 ___
 
@@ -282,7 +296,7 @@ ___
 
 Ƭ **InstrumentId**: *object | object*
 
-Defined in OpenAPI.ts:41
+*Defined in [src/OpenAPI.ts:45](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L45)*
 
 ___
 
@@ -290,7 +304,7 @@ ___
 
 Ƭ **InstrumentType**: *object*
 
-Defined in domain.d.ts:231
+*Defined in [src/domain.d.ts:231](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L231)*
 
 #### Type declaration:
 
@@ -300,7 +314,7 @@ ___
 
 Ƭ **Interval**: *"1min" | "2min" | "3min" | "5min" | "10min" | "15min" | "30min" | "hour" | "2hour" | "4hour" | "day" | "week" | "month"*
 
-Defined in OpenAPI.ts:18
+*Defined in [src/OpenAPI.ts:22](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L22)*
 
 ___
 
@@ -308,7 +322,7 @@ ___
 
 Ƭ **LimitOrderParams**: *object*
 
-Defined in OpenAPI.ts:61
+*Defined in [src/OpenAPI.ts:65](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L65)*
 
 #### Type declaration:
 
@@ -326,7 +340,7 @@ ___
 
 Ƭ **LimitOrderRequest**: *object*
 
-Defined in domain.d.ts:156
+*Defined in [src/domain.d.ts:156](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L156)*
 
 #### Type declaration:
 
@@ -342,7 +356,7 @@ ___
 
 Ƭ **LimitOrderResponse**: *object*
 
-Defined in domain.d.ts:162
+*Defined in [src/domain.d.ts:162](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L162)*
 
 #### Type declaration:
 
@@ -358,7 +372,7 @@ ___
 
 Ƭ **MarketInstrument**: *object*
 
-Defined in domain.d.ts:217
+*Defined in [src/domain.d.ts:217](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L217)*
 
 #### Type declaration:
 
@@ -382,7 +396,7 @@ ___
 
 Ƭ **MarketInstrumentList**: *object*
 
-Defined in domain.d.ts:206
+*Defined in [src/domain.d.ts:206](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L206)*
 
 #### Type declaration:
 
@@ -396,7 +410,7 @@ ___
 
 Ƭ **MarketInstrumentListResponse**: *object*
 
-Defined in domain.d.ts:200
+*Defined in [src/domain.d.ts:200](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L200)*
 
 #### Type declaration:
 
@@ -412,7 +426,7 @@ ___
 
 Ƭ **MarketInstrumentResponse**: *object*
 
-Defined in domain.d.ts:211
+*Defined in [src/domain.d.ts:211](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L211)*
 
 #### Type declaration:
 
@@ -428,7 +442,7 @@ ___
 
 Ƭ **MoneyAmount**: *object*
 
-Defined in domain.d.ts:52
+*Defined in [src/domain.d.ts:52](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L52)*
 
 #### Type declaration:
 
@@ -442,7 +456,7 @@ ___
 
 Ƭ **Operation**: *object*
 
-Defined in domain.d.ts:123
+*Defined in [src/domain.d.ts:123](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L123)*
 
 #### Type declaration:
 
@@ -478,7 +492,7 @@ ___
 
 Ƭ **OperationStatus**: *object*
 
-Defined in domain.d.ts:184
+*Defined in [src/domain.d.ts:184](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L184)*
 
 #### Type declaration:
 
@@ -488,7 +502,7 @@ ___
 
 Ƭ **OperationTrade**: *object*
 
-Defined in domain.d.ts:116
+*Defined in [src/domain.d.ts:116](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L116)*
 
 #### Type declaration:
 
@@ -506,7 +520,7 @@ ___
 
 Ƭ **OperationType**: *object*
 
-Defined in domain.d.ts:180
+*Defined in [src/domain.d.ts:180](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L180)*
 
 #### Type declaration:
 
@@ -516,7 +530,7 @@ ___
 
 Ƭ **OperationTypeWithCommission**: *object*
 
-Defined in domain.d.ts:182
+*Defined in [src/domain.d.ts:182](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L182)*
 
 #### Type declaration:
 
@@ -526,7 +540,7 @@ ___
 
 Ƭ **Operations**: *object*
 
-Defined in domain.d.ts:112
+*Defined in [src/domain.d.ts:112](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L112)*
 
 #### Type declaration:
 
@@ -538,7 +552,7 @@ ___
 
 Ƭ **OperationsResponse**: *object*
 
-Defined in domain.d.ts:106
+*Defined in [src/domain.d.ts:106](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L106)*
 
 #### Type declaration:
 
@@ -554,7 +568,7 @@ ___
 
 Ƭ **Order**: *object*
 
-Defined in domain.d.ts:145
+*Defined in [src/domain.d.ts:145](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L145)*
 
 #### Type declaration:
 
@@ -580,7 +594,7 @@ ___
 
 Ƭ **OrderResponse**: *object*
 
-Defined in domain.d.ts:76
+*Defined in [src/domain.d.ts:76](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L76)*
 
 #### Type declaration:
 
@@ -594,7 +608,7 @@ ___
 
 Ƭ **OrderStatus**: *object*
 
-Defined in domain.d.ts:186
+*Defined in [src/domain.d.ts:186](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L186)*
 
 #### Type declaration:
 
@@ -604,7 +618,7 @@ ___
 
 Ƭ **OrderType**: *object*
 
-Defined in domain.d.ts:188
+*Defined in [src/domain.d.ts:188](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L188)*
 
 #### Type declaration:
 
@@ -614,7 +628,7 @@ ___
 
 Ƭ **Orderbook**: *object*
 
-Defined in domain.d.ts:63
+*Defined in [src/domain.d.ts:63](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L63)*
 
 #### Type declaration:
 
@@ -644,7 +658,7 @@ ___
 
 Ƭ **OrderbookResponse**: *object*
 
-Defined in domain.d.ts:57
+*Defined in [src/domain.d.ts:57](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L57)*
 
 #### Type declaration:
 
@@ -660,7 +674,7 @@ ___
 
 Ƭ **OrderbookStreaming**: *object*
 
-Defined in OpenAPI.ts:36
+*Defined in [src/OpenAPI.ts:40](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L40)*
 
 #### Type declaration:
 
@@ -676,7 +690,7 @@ ___
 
 Ƭ **OrdersResponse**: *object*
 
-Defined in domain.d.ts:139
+*Defined in [src/domain.d.ts:139](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L139)*
 
 #### Type declaration:
 
@@ -692,7 +706,7 @@ ___
 
 Ƭ **PlacedLimitOrder**: *object*
 
-Defined in domain.d.ts:168
+*Defined in [src/domain.d.ts:168](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L168)*
 
 #### Type declaration:
 
@@ -716,7 +730,7 @@ ___
 
 Ƭ **Portfolio**: *object*
 
-Defined in domain.d.ts:19
+*Defined in [src/domain.d.ts:19](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L19)*
 
 #### Type declaration:
 
@@ -728,7 +742,7 @@ ___
 
 Ƭ **PortfolioCurrenciesResponse**: *object*
 
-Defined in domain.d.ts:23
+*Defined in [src/domain.d.ts:23](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L23)*
 
 #### Type declaration:
 
@@ -744,7 +758,7 @@ ___
 
 Ƭ **PortfolioPosition**: *object*
 
-Defined in domain.d.ts:39
+*Defined in [src/domain.d.ts:39](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L39)*
 
 #### Type declaration:
 
@@ -774,7 +788,7 @@ ___
 
 Ƭ **PortfolioResponse**: *object*
 
-Defined in domain.d.ts:13
+*Defined in [src/domain.d.ts:13](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L13)*
 
 #### Type declaration:
 
@@ -790,7 +804,7 @@ ___
 
 Ƭ **SandboxCurrency**: *object*
 
-Defined in domain.d.ts:227
+*Defined in [src/domain.d.ts:227](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L227)*
 
 #### Type declaration:
 
@@ -800,7 +814,7 @@ ___
 
 Ƭ **SandboxSetCurrencyBalanceRequest**: *object*
 
-Defined in domain.d.ts:190
+*Defined in [src/domain.d.ts:190](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L190)*
 
 #### Type declaration:
 
@@ -814,7 +828,7 @@ ___
 
 Ƭ **SandboxSetPositionBalanceRequest**: *object*
 
-Defined in domain.d.ts:195
+*Defined in [src/domain.d.ts:195](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L195)*
 
 #### Type declaration:
 
@@ -828,7 +842,7 @@ ___
 
 Ƭ **SocketEventType**: *"orderbook" | "candle" | "instrument_info"*
 
-Defined in OpenAPI.ts:34
+*Defined in [src/OpenAPI.ts:38](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L38)*
 
 ___
 
@@ -836,7 +850,7 @@ ___
 
 Ƭ **TradeStatus**: *object*
 
-Defined in domain.d.ts:178
+*Defined in [src/domain.d.ts:178](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/domain.d.ts#L178)*
 
 #### Type declaration:
 
@@ -844,9 +858,9 @@ Defined in domain.d.ts:178
 
 ### `Const` WebSocket
 
-• **WebSocket**: *any* =  require('ws')
+• **WebSocket**: *any* = require('ws')
 
-Defined in OpenAPI.ts:17
+*Defined in [src/OpenAPI.ts:21](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L21)*
 
 ## Functions
 
@@ -854,7 +868,7 @@ Defined in OpenAPI.ts:17
 
 ▸ **getQueryString**(`params`: object): *string*
 
-Defined in OpenAPI.ts:53
+*Defined in [src/OpenAPI.ts:57](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L57)*
 
 **Parameters:**
 
@@ -870,7 +884,7 @@ ___
 
 ▸ **once**<**P**, **R**>(`fn`: function): *function*
 
-Defined in OpenAPI.ts:68
+*Defined in [src/OpenAPI.ts:72](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L72)*
 
 **Type parameters:**
 
