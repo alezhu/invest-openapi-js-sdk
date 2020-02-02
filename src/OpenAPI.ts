@@ -12,7 +12,7 @@ import {
   Portfolio,
   PortfolioPosition,
   SandboxSetCurrencyBalanceRequest,
-  SandboxSetPositionBalanceRequest,
+  SandboxSetPositionBalanceRequest, UserAccounts,
 } from './domain';
 const WebSocket = require('ws');
 type Interval =
@@ -431,5 +431,9 @@ export default class OpenAPI extends EventEmitter {
    */
   instrumentInfo({ figi }: { figi: string }, cb = console.log) {
     return this.subscribeToSocket({ type: 'instrument_info', figi }, cb);
+  }
+
+  userAccounts(): Promise<UserAccounts> {
+    return this.makeRequest('/user/accounts');
   }
 }
