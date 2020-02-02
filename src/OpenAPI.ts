@@ -78,7 +78,7 @@ function once<P extends Array<any>, R>(fn: (...args: P) => R): (...args: P) => R
 /**
  * @noInheritDoc
  */
-export default class OpenAPI extends EventEmitter {
+export class OpenAPI extends EventEmitter {
   private _ws: any = null;
   private readonly apiURL: string;
   private readonly socketURL: string;
