@@ -8,9 +8,10 @@
   },
   "scripts": {
     "prepare": "npm run build",
-    "build": "rollup --config ./rollup.config.js",
-    "watch": "rollup --config ./rollup.config.js -w -m",
-    "docs": " rm -rf ./doc && typedoc"
+    "build": "npx rollup --config ./rollup.config.js",
+    "watch": "npx rollup --config ./rollup.config.js -w -m",
+    "docs": "rimraf ./doc && npx typedoc",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -25,14 +26,17 @@
   "license": "ISC",
   "devDependencies": {
     "fsevents": "^2.0.7",
+    "patch-package": "^6.2.0",
     "prettier": "1.18.2",
+    "rimraf": "^3.0.1",
     "rollup": "^1.21.3",
     "rollup-plugin-dts": "^1.1.11",
-    "rollup-plugin-typescript": "^1.0.1",
-    "rollup-plugin-typescript2": "^0.24.3",
+    "@rollup/plugin-typescript": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.25.3",
     "tslib": "^1.10.0",
-    "typedoc": "^0.15.0",
-    "typedoc-plugin-markdown": "^2.2.10",
+    "typedoc": "^0.16.9",
+    "typedoc-plugin-fixcomputednames": "^1.0.1",
+    "typedoc-plugin-markdown": "^2.2.16",
     "typedoc-plugin-no-inherit": "^1.1.10",
     "typescript": "^3.6.3"
   },

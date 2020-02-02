@@ -36,6 +36,7 @@
 * [setCurrenciesBalance](openapi.md#setcurrenciesbalance)
 * [setPositionBalance](openapi.md#setpositionbalance)
 * [stocks](openapi.md#stocks)
+* [userAccounts](openapi.md#useraccounts)
 
 ## Constructors
 
@@ -43,7 +44,9 @@
 
 \+ **new OpenAPI**(`__namedParameters`: object): *[OpenAPI](openapi.md)*
 
-Defined in OpenAPI.ts:86
+*Overrides void*
+
+*Defined in [src/OpenAPI.ts:90](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L90)*
 
 **Parameters:**
 
@@ -63,7 +66,7 @@ Name | Type | Description |
 
 ▸ **bonds**(): *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
 
-Defined in OpenAPI.ts:307
+*Defined in [src/OpenAPI.ts:311](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L311)*
 
 Метод для получения всех доступных облигаций
 
@@ -75,7 +78,7 @@ ___
 
 ▸ **cancelOrder**(`__namedParameters`: object): *Promise‹void›*
 
-Defined in OpenAPI.ts:279
+*Defined in [src/OpenAPI.ts:283](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L283)*
 
 Метод для отмены активных заявок
 
@@ -95,7 +98,7 @@ ___
 
 ▸ **candle**(`__namedParameters`: object, `cb`: function): *unsubscribe*
 
-Defined in OpenAPI.ts:418
+*Defined in [src/OpenAPI.ts:422](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L422)*
 
 Метод для подписки на данные по свечному графику инструмента
 
@@ -110,7 +113,7 @@ Name | Type | Default | Description |
 `figi` | string | - | идентификатор инструмента |
 `interval` | "1min" &#124; "2min" &#124; "3min" &#124; "5min" &#124; "10min" &#124; "15min" &#124; "30min" &#124; "hour" &#124; "2hour" &#124; "4hour" &#124; "day" &#124; "week" &#124; "month" | "1min" | интервал для свечи |
 
-▪`Default value`  **cb**: *function*=  console.log
+▪`Default value`  **cb**: *function*= console.log
 
 функция для обработки новых данных по свечи
 
@@ -132,7 +135,7 @@ ___
 
 ▸ **candlesGet**(`__namedParameters`: object): *Promise‹[Candles](../globals.md#candles)›*
 
-Defined in OpenAPI.ts:337
+*Defined in [src/OpenAPI.ts:341](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L341)*
 
 Метод для получения исторических свечей по FIGI
 
@@ -155,7 +158,7 @@ ___
 
 ▸ **currencies**(): *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
 
-Defined in OpenAPI.ts:293
+*Defined in [src/OpenAPI.ts:297](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L297)*
 
 Метод для получения всех доступных валютных инструментов
 
@@ -167,7 +170,7 @@ ___
 
 ▸ **etfs**(): *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
 
-Defined in OpenAPI.ts:300
+*Defined in [src/OpenAPI.ts:304](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L304)*
 
 Метод для получения всех доступных валютных ETF
 
@@ -179,7 +182,7 @@ ___
 
 ▸ **instrumentInfo**(`__namedParameters`: object, `cb`: log): *unsubscribe*
 
-Defined in OpenAPI.ts:432
+*Defined in [src/OpenAPI.ts:436](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L436)*
 
 Метод для подписки на данные по инструменту
 
@@ -193,7 +196,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `figi` | string | идентификатор инструмента |
 
-▪`Default value`  **cb**: *log*=  console.log
+▪`Default value`  **cb**: *log*= console.log
 
 функция для обработки новых данных по инструменту
 
@@ -207,7 +210,7 @@ ___
 
 ▸ **instrumentPortfolio**(`params`: [InstrumentId](../globals.md#instrumentid)): *Promise‹[PortfolioPosition](../globals.md#portfolioposition) | null›*
 
-Defined in OpenAPI.ts:241
+*Defined in [src/OpenAPI.ts:245](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L245)*
 
 Метод для получение данных по инструменту в портфеле
 
@@ -225,7 +228,7 @@ ___
 
 ▸ **limitOrder**(`__namedParameters`: object): *Promise‹[PlacedLimitOrder](../globals.md#placedlimitorder)›*
 
-Defined in OpenAPI.ts:263
+*Defined in [src/OpenAPI.ts:267](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L267)*
 
 Метод для выставления заявки
 
@@ -248,7 +251,7 @@ ___
 
 ▸ **operations**(`__namedParameters`: object): *Promise‹[Operations](../globals.md#operations)›*
 
-Defined in OpenAPI.ts:324
+*Defined in [src/OpenAPI.ts:328](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L328)*
 
 Метод для получения операций по цб по инструменту
 
@@ -270,7 +273,7 @@ ___
 
 ▸ **orderbook**(`__namedParameters`: object, `cb`: function): *unsubscribe*
 
-Defined in OpenAPI.ts:403
+*Defined in [src/OpenAPI.ts:407](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L407)*
 
 Метод для подписки на данные по стакану инструмента
 
@@ -291,7 +294,7 @@ Name | Type | Default | Description |
 `depth` | 1 &#124; 2 &#124; 3 &#124; 4 &#124; 5 &#124; 6 &#124; 7 &#124; 8 &#124; 9 &#124; 10 | 3 | - |
 `figi` | string | - | идентификатор инструмента |
 
-▪`Default value`  **cb**: *function*=  console.log
+▪`Default value`  **cb**: *function*= console.log
 
 функция для обработки новых данных по стакану
 
@@ -313,7 +316,7 @@ ___
 
 ▸ **orderbookGet**(`__namedParameters`: object): *Promise‹[Orderbook](../globals.md#orderbook)›*
 
-Defined in OpenAPI.ts:358
+*Defined in [src/OpenAPI.ts:362](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L362)*
 
 Метод для получение стакана
 
@@ -334,7 +337,7 @@ ___
 
 ▸ **orders**(): *Promise‹[Order](../globals.md#order)[]›*
 
-Defined in OpenAPI.ts:286
+*Defined in [src/OpenAPI.ts:290](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L290)*
 
 Метод для получения всех активных заявок
 
@@ -346,7 +349,7 @@ ___
 
 ▸ **portfolio**(): *Promise‹[Portfolio](../globals.md#portfolio)›*
 
-Defined in OpenAPI.ts:234
+*Defined in [src/OpenAPI.ts:238](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L238)*
 
 Метод для получение портфеля цб
 
@@ -358,7 +361,7 @@ ___
 
 ▸ **sandboxClear**(): *Promise‹any›*
 
-Defined in OpenAPI.ts:208
+*Defined in [src/OpenAPI.ts:212](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L212)*
 
 Метод для очистки песочницы
 
@@ -370,7 +373,7 @@ ___
 
 ▸ **search**(`params`: [InstrumentId](../globals.md#instrumentid)): *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
 
-Defined in OpenAPI.ts:367
+*Defined in [src/OpenAPI.ts:371](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L371)*
 
 Метод для поиска инструментов по figi или ticker
 
@@ -388,7 +391,7 @@ ___
 
 ▸ **searchOne**(`params`: [InstrumentId](../globals.md#instrumentid)): *Promise‹[MarketInstrument](../globals.md#marketinstrument) | null›*
 
-Defined in OpenAPI.ts:385
+*Defined in [src/OpenAPI.ts:389](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L389)*
 
 Метод для поиска инструмента по figi или ticker
 
@@ -406,7 +409,7 @@ ___
 
 ▸ **setCurrenciesBalance**(`params`: [SandboxSetCurrencyBalanceRequest](../globals.md#sandboxsetcurrencybalancerequest)): *Promise‹void›*
 
-Defined in OpenAPI.ts:226
+*Defined in [src/OpenAPI.ts:230](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L230)*
 
 Метод для задания баланса по валютам
 
@@ -424,7 +427,7 @@ ___
 
 ▸ **setPositionBalance**(`params`: [SandboxSetPositionBalanceRequest](../globals.md#sandboxsetpositionbalancerequest)): *Promise‹void›*
 
-Defined in OpenAPI.ts:217
+*Defined in [src/OpenAPI.ts:221](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L221)*
 
 Метод для задания баланса по бумагам
 
@@ -442,8 +445,18 @@ ___
 
 ▸ **stocks**(): *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
 
-Defined in OpenAPI.ts:314
+*Defined in [src/OpenAPI.ts:318](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L318)*
 
 Метод для получения всех доступных акций
 
 **Returns:** *Promise‹[MarketInstrumentList](../globals.md#marketinstrumentlist)›*
+
+___
+
+###  userAccounts
+
+▸ **userAccounts**(): *Promise‹[UserAccounts](../interfaces/useraccounts.md)›*
+
+*Defined in [src/OpenAPI.ts:440](https://github.com/alezhu/invest-openapi-js-sdk/blob/d881cc4/src/OpenAPI.ts#L440)*
+
+**Returns:** *Promise‹[UserAccounts](../interfaces/useraccounts.md)›*
